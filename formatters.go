@@ -65,6 +65,6 @@ func DefaultJSONFormatter() Formatter {
 			logrus.FieldKeyTime: "@timestamp",
 			logrus.FieldKeyMsg:  "message",
 		},
-		TimestampFormat: time.Kitchen,
+		TimestampFormat: time.UnixDate,
 	}
 }
